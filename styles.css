@@ -1,0 +1,49 @@
+.container {
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: grey;
+  }
+
+  .display-box {
+    width: 280px;
+    height: 50px;
+    margin: 10px;
+    font-size: 24px;
+    text-align: right;
+    background-color: burlywood;
+    border: none;
+  }
+
+  .button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: lightblue;
+  }
+
+  .operator {
+    background-color: mediumblue;
+    color: white;
+  }
+
+  .equal {
+    background-color: green;
+    color: white;
+  }
+
+  .clear {
+    background-color: red;
+    color: white;
+  }
